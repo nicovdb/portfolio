@@ -1,0 +1,110 @@
+@import 'components/buttons.css';
+@import 'components/cards.css';
+@import 'components/form.css';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #313A50;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    line-height: 2.5rem;
+  }
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+
+.blue {
+  color: #313A50;
+}
+
+.green {
+  color: #3AC39C;
+}
+
+.light-brown {
+  color: #FCF5E8;
+}
+
+.bg-light-brown {
+  background-color: #FCF5E8;
+}
+
+.bg-blue {
+  background-color: #313A50;
+  color: white;
+}
+
+.shadow-vdb {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+  width: 70px;
+}
+
+.highlight-green {
+  background-color: rgba(58, 195, 156, 0.1);
+  color: #3AC39C;
+  padding: 0 8px;
+  border-radius: 2px;
+}
+
+@media (min-width: 700px) {
+  .vh-center {
+    height: calc(100vh - 145px - 3rem);
+  }
+}
+
+.home-illustration {
+  width: 250px;
+  max-width: 100%;
+}
+
+.journey-illustration {
+  width: 350px;
+  max-width: 100%;
+}
+
+.contact-illustration {
+  width: 350px;
+  max-width: 100%;
+}
+
+.bicolor {
+  background: linear-gradient(to right top, #FCF5E8 50%, white 50%);
+  height: 60px;
+}
+
+.bicolor-opposite {
+  background: linear-gradient(to right top, white 50%, #FCF5E8 50%);
+  height: 60px;
+}
+
+.bicolor-dark {
+  background: linear-gradient(to right top, #313A50 50%, white 50%);
+  height: 60px;
+}
+
+.bicolor-dark img {
+  width: 50px;
+  height: 50px;
+}

@@ -1,0 +1,12 @@
+input.form-control {
+  padding: 2rem 1rem;
+}
+
+textarea.form-control {
+  padding: 1.2rem 1rem;
+}
+
+.form-control {
+  border: none;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}

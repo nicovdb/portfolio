@@ -1,0 +1,35 @@
+.step {
+  display: flex;
+  align-items: center;
+}
+
+.card-step {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.card-step img {
+  width: 150px;
+}
+
+.card-step div {
+  flex-grow: 1;
+}
+
+.card-step p {
+  margin-bottom: 0;
+}
+
+.card-step h2 {
+  font-size: 1.2rem;
+}
+
+.number {
+  width: 70px;
+}
+
