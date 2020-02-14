@@ -100,7 +100,7 @@ p {
 }
 
 .bicolor-dark {
-  background: linear-gradient(to right top, #313A50 50%, white 50%);
+  background: linear-gradient(to top, #313A50 50%, white 50%);
   height: 60px;
 }
 
