@@ -1,6 +1,7 @@
 @import 'components/buttons.css';
 @import 'components/cards.css';
 @import 'components/form.css';
+@import 'components/footer.css';
 
 html {
   scroll-behavior: smooth;
@@ -29,6 +30,7 @@ h2 {
 
 p {
   margin-bottom: 8px;
+  color: rgba(49,58,80, 0.8);
 }
 
 
@@ -58,7 +60,7 @@ p {
 }
 
 .navbar img {
-  width: 70px;
+  width: 80px;
 }
 
 .highlight-green {
