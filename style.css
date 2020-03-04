@@ -33,7 +33,6 @@ p {
   color: rgba(49,58,80, 0.8);
 }
 
-
 .blue {
   color: #313A50;
 }
@@ -92,12 +91,14 @@ p {
 }
 
 .bicolor {
-  background: linear-gradient(to right top, #FCF5E8 50%, white 50%);
+  background-image: url(images/wave.svg);
+  background-size: cover;
   height: 60px;
 }
 
 .bicolor-opposite {
-  background: linear-gradient(to right top, white 50%, #FCF5E8 50%);
+  background-image: url(images/wave2.svg);
+  background-size: cover;
   height: 60px;
 }
 
